@@ -131,7 +131,7 @@ Do not include any other fields or top-level keys.`;
           content: userPrompt,
         },
       ],
-      model: "llama-3.3-70b-versatile",
+      model: "llama-3.1-8b-instant",
       temperature: 1,
       max_completion_tokens: Math.min(
         10000,
@@ -323,7 +323,7 @@ export async function generateSprintAgentReply(
 
   try {
     const completion = await groq.chat.completions.create({
-      model: process.env.GROQ_CHAT_MODEL || "llama-3.3-70b-versatile",
+      model: process.env.GROQ_CHAT_MODEL || "llama-3.1-8b-instant",
       temperature: 0.55,
       max_completion_tokens: 900,
       top_p: 0.9,
