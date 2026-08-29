@@ -1,6 +1,6 @@
-# CareerSprint AI — Personalized Learning OS
+Veyra AI — Personalized Learning OS
 
-CareerSprint AI is an AI-powered Personalized Learning Path Recommender. It turns a learner's goal, experience, interests, current skills, learning style, available time and learning history into a prerequisite-aware roadmap of resources, projects and assessments.
+Veyra AI is an AI-powered Personalized Learning Path Recommender. It turns a learner's goal, experience, interests, current skills, learning style, available time and learning history into a prerequisite-aware roadmap of resources, projects and assessments.
 
 ## Core experience
 
