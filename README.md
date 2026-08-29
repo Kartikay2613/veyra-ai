@@ -54,6 +54,6 @@ For production, add the equivalent production callback URL. The app uses the bro
 
 ## AI model
 
-Learning-path generation uses the configured Groq model `openai/gpt-oss-120b`. The coach/reflection layer uses `llama-3.1-8b-instant`.
+Learning-path generation uses the configured Groq model `openai/gpt-oss-120b`. The coach/reflection layer uses `openai/gpt-oss-20b`.
 
 Never commit real API keys to the repository.

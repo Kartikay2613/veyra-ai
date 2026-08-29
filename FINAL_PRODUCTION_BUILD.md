@@ -33,7 +33,7 @@ This build is the consolidated SaaS release. It is intentionally a complete proj
 - `SUPABASE_SERVICE_ROLE_KEY` (required by account deletion/server administration flows if used by your deployment)
 - `GROQ_API_KEY_1` (or `GROQ_API_KEY`)
 - `OPENAI_API_KEY` if any OpenAI-backed feature is enabled in your environment
-- Optional: `GROQ_CHAT_MODEL=llama-3.3-70b-versatile`
+- Optional: `GROQ_CHAT_MODEL=openai/gpt-oss-20b`
 
 ## Supabase setup
 
